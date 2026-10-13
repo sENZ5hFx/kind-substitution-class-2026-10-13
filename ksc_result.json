@@ -1,0 +1,36 @@
+{
+  "session_id": "2026-10-13T17:40:00Z",
+  "discovery_id": "KSC-2026-10-13",
+  "class": "Kind-Substitution Class",
+  "status": "research-stage classification; not a physical discovery, peer review, or patent",
+  "queued_from": "RSC-2026-10-11",
+  "deferred_on": "FSC-2026-10-12",
+  "why_this_session": "high-agency-partner rules 7 and 8. Kind-Substitution was the oldest unminted leftover after FSC received an ID.",
+  "definition": "Dropping one published kind axis, with every other conversion held fixed, manufactures a straddle of a named residual that the intact rectangle does not contain.",
+  "type_specimen": {
+    "source": "McMonagle et al., ICES J. Mar. Sci. 81(10):2037-2051 (2024), doi:10.1093/icesjms/fsae149",
+    "retrieved": "journal abstract / landing page, 13 Oct 2026. Full PDF bytes not opened.",
+    "authors_already_said": "carbon transport should not be conflated with carbon sequestration",
+    "flux_200m_mg_m2_d": [1.6, 21],
+    "retention": [0.08, 0.3],
+    "residual": "1.7 GtC, Global Carbon Budget year-2024 imbalance, as fixed by RSC-2026-10-11. Friedlingstein PDF not re-opened this session.",
+    "scale_convention": "3.61e14 m^2 * 365.25 d / 1e18 mg Gt^-1 = 0.13185525 GtC yr^-1 per (mg C m^-2 d^-1). Convention, not a new measurement.",
+    "intact_with_retention_GtC_yr": [0.016877, 0.830688],
+    "stripped_retention_dropped_GtC_yr": [0.210968, 2.76896],
+    "verdict": "KSC",
+    "score": 2.432,
+    "penalties": {"spoken": 0.8, "prior_overlap": 0.62, "evidence": 0.8},
+    "score_formula": "40 * evidence * (1 - spoken) * (1 - prior_overlap)"
+  },
+  "controls_verdicts": {
+    "rsc_500m_no_retention_axis": "NOT_KSC",
+    "land_sink_already_straddles": "NOT_KSC",
+    "extra_paint_only_on_stripped": "NOT_KSC",
+    "visser_not_one_rectangle": "KIND_OVERSHOOT_QUEUED_NOT_MINTED"
+  },
+  "novelty_capped": 0.22,
+  "coherence": 0.84,
+  "leftover_not_minted": "Kind-Overshoot",
+  "sha256_before_hash_field": "057d61f0f8902d86607f14b4371a04bcce739bf5164064c7df7885fce2f69963",
+  "note": "Canonical pre-hash object is the local ksc_result.json whose SHA-256 is the line above. This GitHub copy is a readable summary and was not the hashed bytes."
+}
